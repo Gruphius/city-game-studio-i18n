@@ -1,12 +1,14 @@
+# Current updating Progress: Line 267
+
 de:
   # Buttons actions verbs
-  BUTTON_RESET_SCHEDULE: Resetovat úkoly
+  BUTTON_RESET_SCHEDULE: Aufgaben zurücksetzen
   BUTTON_TRANSFERT_STAFF: Mitarbeiter übertragen nach...
   BUTTON_RENAME: Umbenennen
-  BUTTON_DISABLE_TUTORIEL: Lernprogramm deaktivieren
-  BUTTON_ACQUIRE: Erwerben Sie
+  BUTTON_DISABLE_TUTORIEL: Tutorial deaktivieren
+  BUTTON_ACQUIRE: Alle verbleibenden Aktien kaufen
   BUTTON_READ: Lesen
-  BUTTON_ANNOUNCE: Kündige das Spiel an
+  BUTTON_ANNOUNCE: Spiel ankündigen
   BUTTON_NEW_GAME: Neues Spiel
   BUTTON_HIRE: Einstellen
   BUTTON_APPLY: Übernehmen
@@ -35,7 +37,7 @@ de:
   BUTTON_ADOPT: Adoptieren
   BUTTON_ABANDON: Abbrechen
   BUTTON_ASSIGN_EMPLOYEE: Zuweisen
-  BUTTON_WITHDRAW_SPECIALISTS: Ziehen Sie alle Spezialisten zurück
+  BUTTON_WITHDRAW_SPECIALISTS: Spezialisten abziehen
   BUTTON_KEEP_PLAYING: Weiter spielen
   BUTTON_LEADERBOARD: Bestenliste
   BUTTON_GIVEUP: Aufgeben
@@ -49,7 +51,7 @@ de:
   BUTTON_BANKRUPTCY: Bankrott
   BUTTON_RESTORE: Wiederherstellen
   BUTTON_DELETE: Löschen
-  BUTTON_DELETE_ALL: Alle löschen
+  BUTTON_DELETE_ALL: Alles löschen
   BUTTON_SPAM: Spam
   BUTTON_UNSPAM: Kein Spam
   BUTTON_HOLIDAY: Alle in den Urlaub!
@@ -59,7 +61,7 @@ de:
   BUTTON_FEEDBACK: Feedback
   DROPDOWN_LANGUAGE: Sprache
   BUTTON_CRACK_GAME: Dieses Spiel cracken
-  BUTTON_FORCE_STUDIO_SELL: Erzwinge den Verkauf des Büros
+  BUTTON_FORCE_STUDIO_SELL: Verkauf des Büros erzwingen
   BUTTON_SPY: Spionage
   BUTTON_HIRE_THEIR_EMPLOYE: Mitarbeiter abwerben
   BUTTON_SELECT: Wählen
@@ -76,33 +78,33 @@ de:
   BUTTON_UPDATE: Aktualisieren
   BUTTON_EDIT: Bearbeiten
   BUTTON_CONFINE_MOUSE: Mauscursor einfangen
-  BUTTON_SHOW_STUDIO: Das Studio zeigen
-  BUTTON_CANCEL_GAME: Das Spiel abbrechen
+  BUTTON_SHOW_STUDIO: Studio zeigen
+  BUTTON_CANCEL_GAME: Spiel abbrechen
   BUTTON_VIEW_SEQUEL: Fortsetzung ansehen
   BUTTON_COPY: Kopie
   BUTTON_HIRE_ALL: Alle einstellen
   BUTTON_HIRE_AND_ASSIGN: Einstellen und zuweisen
   BUTTON_TRAINING_START: Training starten
   BUTTON_TRAINING_STOP: Training beenden
-  BUTTON_CANCEL_CONTRACT: Den Vertrag kündigen
-  BUTTON_CANCEL_GAMEPORT: Abbrechen der Spieleportierung
-  BUTTON_CANCEL_FEATURE: Abbrechen der Funktion
-  BUTTON_CANCEL_GAMEENGINE: Spiel-Engine abbrechen
-  BUTTON_CANCEL_GAMEUPDATE: Kostenloses Update abbrechen
-  BUTTON_CANCEL_DLC: Bezahltes Update abbrechen
-  BUTTON_UNASSIGN: Abbrechen des Auftrags
+  BUTTON_CANCEL_CONTRACT: Vertrag kündigen
+  BUTTON_CANCEL_GAMEPORT: Portierung einstellen
+  BUTTON_CANCEL_FEATURE: Feature einstellen
+  BUTTON_CANCEL_GAMEENGINE: Spiel-Engine einstellen
+  BUTTON_CANCEL_GAMEUPDATE: Kostenloses Update einstellen
+  BUTTON_CANCEL_DLC: DLC einstellen
+  BUTTON_UNASSIGN: Mitarbeiter abziehen
   BUTTON_UNASSIGN_ALL_EMPLOYEE: Alle Mitarbeiter abziehen
   BUTTON_REMAKE_CREATE: Neuauflage erstellen
-  BUTTON_VIEW_REMAKE: Das Remake ansehen
-  BUTTON_VIEW_ORIGINAL_GAME: Das Originalspiel ansehen
+  BUTTON_VIEW_REMAKE: Neuauflage ansehen
+  BUTTON_VIEW_ORIGINAL_GAME: Originalspiel ansehen
   BUTTON_ACCEPT: Akzeptieren
   BUTTON_REFUSE: Ablehnen
-  BUTTON_IMPORT_IMAGE: Ein Bild importieren
-  BUTTON_ROADMAP: Straßenkarte
+  BUTTON_IMPORT_IMAGE: Bild importieren
+  BUTTON_ROADMAP: Roadmap
   BUTTON_VIEW_MODS: Mods ansehen
-  BUTTON_DEMOLISH_STUDIO: Das Gebäude abreißen
-  BUTTON_SAVEGAMEAS: Neues Savegame
-  BUTTON_TWITCH_INTEGRATION: Twitch
+  BUTTON_DEMOLISH_STUDIO: Studio abreißen
+  BUTTON_SAVEGAMEAS: Neuer Spielstand
+  BUTTON_TWITCH_INTEGRATION: Twitch-Integration
   BUTTON_FETCH_TOKEN: Token erhalten
   BUTTON_MAIN_MENU_NO_SAVE: Hauptmenü ohne Speichern
   BUTTON_EXIT_NO_SAVE: Beenden ohne zu speichern
@@ -114,10 +116,10 @@ de:
   LABEL_COMPANY_FOUNDED_IN: Unternehmen gegründet in %s
   LABEL_FIRST_GAME_ENGINE_DATE: Erste Spiel-Engine
   LABEL_FIRST_STUDIO_BOUGHT_DATE: Erstes Studio erworben
-  LABEL_DIGITAL_STORE_CREATION_DATE: Digitaler Shop eröffnet
+  LABEL_DIGITAL_STORE_CREATION_DATE: Eigener Launcher veröffentlicht
   LABEL_FIRST_CUSTOM_PLATFORM_DATE: Erste Konsole veröffentlicht
   LABEL_FANBASE_THRESHOLD_DATE: "%s Fans erreicht"
-  LABEL_NUMBER_OF_ONLINE_USER_DIGITAL_STORE: Nutzer des digitalen Shops
+  LABEL_NUMBER_OF_ONLINE_USER_DIGITAL_STORE: Nutzer des eigenen Launchers
   LABEL_AMOUNT_OF_PLATFORM_CREATED: Entwickelte Konsolen
   LABEL_AMOUNT_EDITED_REMAKE: Veröffentlichte Remakes
   LABEL_AMOUNT_OF_GOTY: Spiel des Jahres Auszeichnungen
@@ -128,142 +130,141 @@ de:
   LABEL_AMOUNT_OF_STUDIOS: Studios
   LABEL_AMOUNT_OF_CONVENTIONS: Besuchte Messen
   TOOLTIP_STAFF_SCHEDULE_AUTO: |
-    Teilt Mitarbeiter automatisch zu.
+    Weist Mitarbeiter automatisch zu.
 
     Designer werden Design-Aufgaben zugewiesen, Entwickler Entwicklungs-Aufgaben
-    und Tester Polier-Aufgaben.
+    und Tester Testing-Aufgaben.
 
-    Dabei wird versucht, die Studios auszugleichen.
+    Dabei wird versucht die Mitarbeiter den Studios ausgeglichen zuzuweisen.
   TOOLTIP_STAFF_SCHEDULE_RESET: |
     Setzt die Mitarbeiterzuteilung zurück.
   TOOLTIP_STAFF_SCHEDULE_CANNOT_AUTO_TOO_SMALL: |
     Automatische Zuteilung ist in Studios mit weniger als 5 Mitarbeitern nicht möglich.
   TOOLTIP_STUDIO_AREA_TOO_SMALL: |
     Die Studiofläche ist kleiner als die des ursprünglichen Studios.
-    Daher ist es nicht möglich, die Möbelaufstellung des Zielstudios zu kopieren.
+    Daher ist es nicht möglich, die Möbelaufstellung zu kopieren.
   TOOLTIP_STUDIODIRECTOR_DESCRIPTION: |
-    Sie können jeden Aspekt der Spielentwicklung konfigurieren, indem Sie die automatischen Einstellungen deaktivieren.
+    Jeder Aspekt der Spieleentwicklung kann manuell eingestellt werden, indem die Einstellungen angepasst werden.
 
     Standardmäßig trifft der Studio-Direktor die besten Entscheidungen, ohne Ihre Gesamtstrategie zu berücksichtigen.
-    Er wird die Qualität der Spiele der finanziellen Gesundheit des Unternehmens vorziehen.
+    Er wird die Qualität der Spiele der finanziellen Lage des Unternehmens vorziehen.
 
-    Standardmäßig kündigt der Studio-Direktor keine Spiele an und aktualisiert diese nicht, aber Sie können ihn darum bitten.
-    Er erstellt jedoch automatisch die Spielberichte.
+    Standardmäßig kündigt der Studio-Direktor keine Spiele an und aktualisiert diese nicht. Dies kann aber geändert werden.
+    Er erstellt jedoch immer automatisch Spielberichte.
 
   TOOLTIP_STUDIODIRECTOR_ACTIVATION: |
-    Um einen Studio-Direktor zu aktivieren, weisen Sie ihm Studios zu.
-    Um ihn zu deaktivieren, entfernen Sie alle ihm zugewiesenen Studios.
+    Damit ein Studio-Direktor arbeiten kann, muss er einem Studio zugewiesen werden.
+    Wenn er seine Arbeit beenden soll, kann er einfach von allen zugewiesenen Studios abgezogen werden.
 
-    Spiele und Updates, die sich in der Entwicklung befinden, werden automatisch abgebrochen.
+    Spiele und Updates, die sich in der aktiven Entwicklung befinden, werden dabei automatisch eingestellt.
   LABEL_STUDIODIRECTOR_SPECIALIST_TO_USE: >
-    Ermächtigen Sie den Studioleiter, Spezialisten einzusetzen.
-    Das bedeutet, dass der Studiodirektor immer versucht, die Spezialisten einzusetzen, die unter den hier erlaubten verfügbar sind.
-    Wenn ein Studiodirektor also die Erlaubnis hat, Buchhalter einzusetzen, wird er sie seinen Spielen zuweisen, solange Buchhalter verfügbar sind.
+    Ermächtigt den Studio-Direktor, Spezialisten einzusetzen.
+    Der Studiodirektor versucht immer alle Spezialisten für ein Projekt einzusetzen, die unter den hier erlaubten verfügbar sind.
+    Wenn ein Studiodirektor also zum Beispiel die Erlaubnis hat Buchhalter einzusetzen, wird er sie immer seinen Spielen zuweisen, solange Buchhalter verfügbar sind.
   LABEL_HIDE_STUDIO_NOT_AVAILABLE: Nicht verfügbare Studios ausblenden
   LABEL_IF_POSSIBLE: "(wenn möglich)"
-  LABEL_PREFER_MANUAL_SELECTION: Wählen Sie selbst
-  LABEL_PREFER_NEW_TYPE: Nicht beherrschtes Spielgenre
-  LABEL_PREFER_MASTERED_TYPE: Spielgenre gemeistert
+  LABEL_PREFER_MANUAL_SELECTION: Selbst auswählen
+  LABEL_PREFER_NEW_TYPE: Bisher noch nicht verwendetes Spielgenre
+  LABEL_PREFER_MASTERED_TYPE: Gemeistert Spielgenre
   LABEL_PREFER_PRODUCER_TYPE: Spielgenre des Produzenten
-  LABEL_PREFER_THE_MOST_FEATURES: Die meisten Merkmale
-  LABEL_PREFER_THE_CHEAPEST: Am billigsten
-  LABEL_PREFER_MOST_POWERFUL: Am leistungsfähigsten
+  LABEL_PREFER_THE_MOST_FEATURES: Die meisten Features
+  LABEL_PREFER_THE_CHEAPEST: Am Billigsten
+  LABEL_PREFER_MOST_POWERFUL: Am Leistungsfähigsten
   LABEL_PREFER_HOME_MADE: Hausintern
   LABEL_PREFER_MARKET_SHARE: Größter Marktanteil
   LABEL_PREFER_SMALLEST_CATALOG_SIZE: Kleinster Spielekatalog
   LABEL_PRIORITIZE_PROFIT: Gewinne zuerst
-  LABEL_PRIORITIZE_FANBASE_GROW: Erstes Wachstum der Fangemeinde
+  LABEL_PRIORITIZE_FANBASE_GROW: Wachstum der Fangemeinde zuerst
   LABEL_BONUS_PROFIT_SHARE: Gewinnbeteiligung
   TOOLTIP_BONUS_PROFIT_SHARE: |
     Der Studio-Direktor erhält einen festen Prozentsatz der Gewinne, die durch die von ihm produzierten Spiele erzielt werden.
-    Dieser Bonus garantiert eine stabile Belohnung und motiviert ihn, weiterhin hochwertige Spiele zu produzieren und dabei optimale Leistungen zu erbringen.
-  LABEL_PUBLISH_ALL_GAMES: Alle Spiele veröffentlichen
+    Dieser Bonus motiviert ihn, weiterhin hochwertige Spiele zu produzieren und dabei optimale Leistungen zu erbringen.
+  LABEL_PUBLISH_ALL_GAMES: Alle fertigen Spiele und Updates veröffentlichen
   TOOLTIP_PUBLISH_ALL_GAMES: |
-    Sie können alle vom Studiodirektor produzierten Spiele veröffentlichen.
-    Oder Sie können nur Spiele einer bestimmten Qualität veröffentlichen.
-    Andere Spiele werden automatisch verworfen.
+    Hier kann eingestellt werden, welche Qualität ein Spiel mindestens haben muss, damit der Direktor das Spiel veröffentlicht.
+    Alle Spiele unter dieser Qualität werden automatisch verworfen.
   LABEL_STUDIO_DIRECTOR_REVIEW: Pressebewertungen für Spiele der Direktoren anzeigen
   LABEL_STUDIO_DIRECTOR: Studio-Direktor
-  LABEL_STUDIO_DIRECTOR_CUT: Gewinnbeteiligung der Studioleiter
+  LABEL_STUDIO_DIRECTOR_CUT: Gewinnbeteiligung der Studio-Direktor
   TOOLTIP_STUDIO_DIRECTOR: |
-    Ein Studio-Direktor kann Spiele entwickeln und autonom aktualisieren.
-    Weisen Sie ihm so viele Studios zu, wie Sie möchten, damit er Spiele entwickeln und Updates verwalten kann.
+    Ein Studio-Direktor kann Spiele entwickeln und selbstständig aktualisieren.
+    Er hat eine maximale Anzahl an Studios, die ihm zugewiesen werden können.
+    Ihm können so viele Studios wie möglich zugewiesen werden, damit er Spiele und Updates entwickeln kann.
     Der Studio-Direktor wird alle Mitarbeiter in diesen Studios nutzen: Entwickler, Produzenten,
     Netzwerkadministratoren, Buchhalter und Marketingmanager.
   LABEL_AUTO_PAUSE: Auto-Pause bei Veröffentlichung
   TOOLTIP_AUTO_PAUSE_GAME: |
-    Das Spiel wird automatisch pausiert, wenn Sie ein Videospiel veröffentlichen.
+    Das Spiel wird automatisch pausiert, wenn ein Videospiel veröffentlicht wird.
   LABEL_COMPETITION_FANBASE_ACQUISITION: >
     Durch den Erwerb des Konkurrenten gewonnene Fans
   LABEL_ACQUIRE_COMPANY_DESCRIPTION: |
     Sie sind im Begriff, einen Konkurrenten zu erwerben.
 
     Durch diese Übernahme wird die Zahl der Fans Ihres Unternehmens wachsen.
-    Sie können auch wählen, ob Sie deren Mitarbeiter, Studios und Spiele erwerben möchten.
-    Oder ob Sie sie loswerden wollen.
+    Falls erwünscht können auch die Mitarbeiter, Studios und Spiele des Konkurrenten übernommen. 
   LABEL_GET_ALL_STUDIO: Alle Studios erwerben
   LABEL_HIRE_ALL: Alle Mitarbeiter erwerben
   LABEL_GET_ALL_GAME: Alle Spiele erwerben
-  LABEL_UPCOMING_GAME: Heute auf die Wunschliste!
-  LABEL_BANKER_GOODBYE_MESSAGE: Danke für Ihre Zeit und Überlegung. Wir werden entsprechend Ihrer endgültigen Entscheidung fortfahren. Wenn Sie weitere Unterstützung benötigen, lassen Sie es uns bitte wissen.
+  LABEL_UPCOMING_GAME: Heute auf die Wunschliste setzen!
+  LABEL_BANKER_GOODBYE_MESSAGE: Vielen Dank für Ihre Zeit. Wir werden entsprechend Ihrer endgültigen Entscheidung fortfahren. Wenn Sie weitere Unterstützung benötigen sollten, lassen Sie es uns gerne wissen.
   LABEL_BANKER_SELL_GAME_ENGINE_MESSAGE: Sind Sie sicher, dass Sie die Spiel-Engine verkaufen möchten, die Sie in den letzten Monaten entwickelt haben? Dies könnte Ihre zukünftigen Projekte beeinträchtigen.
-  LABEL_BANKER_SELL_GAME_ENGINE_CONFIRM: Bestätigung. Wir haben keine andere Wahl. Wir müssen unsere Schulden sofort reduzieren.
-  LABEL_BANKER_SELL_GAME_ENGINE_CANCEL: Stornierung. Wir müssen andere Optionen in Betracht ziehen, bevor wir eine so wertvolle Ressource verkaufen.
-  LABEL_BANKER_SELL_CUSTOM_PLATFORM_MESSAGE: Sind Sie sicher, dass Sie die neu fertiggestellte Konsole verkaufen möchten? Dies könnte Ihre Beziehungen zu Partnern und Kunden beeinflussen.
-  LABEL_BANKER_SELL_CUSTOM_PLATFORM_CONFIRM: Bestätigung. Die Situation ist kritisch, und dieser Verkauf ist notwendig, um unsere Schulden zu reduzieren.
-  LABEL_BANKER_SELL_CUSTOM_PLATFORM_CANCEL: Stornierung. Die Konsole stellt die Zukunft unseres Unternehmens dar. Wir müssen andere Lösungen prüfen, bevor wir diesen Verkauf in Erwägung ziehen.
+  LABEL_BANKER_SELL_GAME_ENGINE_CONFIRM: Verstanden. Wir haben keine andere Wahl. Wir müssen unsere Schulden sofort reduzieren.
+  LABEL_BANKER_SELL_GAME_ENGINE_CANCEL: Okay, wir verkaufen die Spiel-Engine also nicht. Wir müssen andere Optionen in Betracht ziehen, bevor wir eine so wertvolle Ressource verkaufen.
+  LABEL_BANKER_SELL_CUSTOM_PLATFORM_MESSAGE: Sind Sie sicher, dass Sie die Rechte für unsere neuste Konsole verkaufen möchten? Dies könnte Ihre Beziehungen zu Partnern und Kunden beeinflussen.
+  LABEL_BANKER_SELL_CUSTOM_PLATFORM_CONFIRM: Verstanden. Die Situation ist kritisch, und dieser Verkauf ist notwendig, um unsere Schulden zu reduzieren.
+  LABEL_BANKER_SELL_CUSTOM_PLATFORM_CANCEL: Okay, wir verkaufen die Rechte an der Konsole also nicht. Die Konsole stellt die Zukunft unseres Unternehmens dar. Wir müssen andere Lösungen prüfen, bevor wir diesen Verkauf in Erwägung ziehen.
   LABEL_BANKER_SELL_STUDIO_MESSAGE: Sind Sie sicher, dass Sie ein ganzes Studio mit allen Mitarbeitern verkaufen möchten? Dies hätte erhebliche Auswirkungen auf Ihr Team und Ihre Produktion.
-  LABEL_BANKER_SELL_STUDIO_CONFIRM: Bestätigung. Trotz der schwierigen Konsequenzen ist diese Option der schnellste Weg, um unsere Schulden zu verringern.
-  LABEL_BANKER_SELL_STUDIO_CANCEL: Stornierung. Der Verlust des Teams wäre katastrophal. Wir sollten andere Alternativen versuchen, bevor wir diese Entscheidung treffen.
-  LABEL_BANKER_GO_BANKRUPT_MESSAGE: Sind Sie sicher, dass Sie sofort Insolvenz anmelden möchten? Dies wird alle Ihre Aktivitäten beenden und langanhaltende Auswirkungen auf Ihre Kreditwürdigkeit haben.
-  LABEL_BANKER_GO_BANKRUPT_CONFIRM: Bestätigung. Wir haben alle anderen Optionen ausgeschöpft, und die Insolvenz scheint der einzige verbleibende Weg zu sein.
-  LABEL_BANKER_GO_BANKRUPT_CANCEL: Stornierung. Ich würde lieber alle anderen möglichen Optionen prüfen, bevor ich eine so drastische Entscheidung treffe.
+  LABEL_BANKER_SELL_STUDIO_CONFIRM: Verstanden. Trotz der schwerwiegenden Konsequenzen ist diese Option der schnellste Weg, um unsere Schulden zu verringern.
+  LABEL_BANKER_SELL_STUDIO_CANCEL: Okay, wir verkaufen das Studio also nicht. Der Verlust des Teams wäre katastrophal. Wir sollten andere Alternativen versuchen, bevor wir diese Entscheidung treffen.
+  LABEL_BANKER_GO_BANKRUPT_MESSAGE: Sind Sie sicher, dass Sie sofort Insolvenz anmelden möchten? Dies wird alle Ihre Projekte einstellen und langanhaltende Auswirkungen auf Ihre Kreditwürdigkeit haben.
+  LABEL_BANKER_GO_BANKRUPT_CONFIRM: Verstanden. Wir haben alle anderen Optionen ausgeschöpft, und die Insolvenz scheint der einzige verbleibende Weg zu sein.
+  LABEL_BANKER_GO_BANKRUPT_CANCEL: Okay. Ich würde auch lieber alle anderen möglichen Optionen prüfen, bevor ich eine so drastische Entscheidung treffe.
   LABEL_BANKER_SELL_GAME_ENGINE: Verkauf der in den letzten Monaten entwickelten Spiel-Engine.
-  LABEL_BANKER_SELL_CUSTOM_PLATFORM: Verkauf der neu fertiggestellten Konsole.
+  LABEL_BANKER_SELL_CUSTOM_PLATFORM: Verkauf der Rechte an der neusten Konsole.
   LABEL_BANKER_SELL_STUDIO: Verkauf eines gesamten Studios mit allen Mitarbeitern.
   LABEL_BANKER_GO_BANKRUPT: Sofortige Anmeldung der Insolvenz.
   LABEL_BANKER_WELCOME: |
-    Sehr geehrter Herr [b]%s[/b],
+    Sehr geehrte*r [b]%s[/b],
 
-    Nach unserer letzten Finanzanalyse ist es unerlässlich, drastische Maßnahmen zu ergreifen, um die kritische Situation Ihres Unternehmens, das derzeit mit [b]%s[/b] verschuldet ist, zu bewältigen.
+    nach unserer neusten Finanzanalyse ist es unmöglich keine drastischen Maßnahmen zu ergreifen, um die kritische Situation Ihres Unternehmens, das derzeit mit [b]%s[/b] verschuldet ist, zu bewältigen.
     Sie stehen vor mehreren schwierigen, aber notwendigen Entscheidungen:
   LABEL_BANKER_WELCOME_END: |
-    Es ist entscheidend, dass Sie unverzüglich eine Entscheidung treffen, um Ihre Finanzen zu stabilisieren.
-  LABEL_SHOW_GAME_PERCENTAGE: Anzeige von Prozentsätzen beim Erstellen eines Spiels
+    Es ist sehr wichtig, dass Sie unverzüglich eine Entscheidung treffen, um Ihre Finanzen zu stabilisieren.
+  LABEL_SHOW_GAME_PERCENTAGE: Anzeigen des Fortschritts beim Erstellen eines Spiels
   LABEL_BIGGER_FONT: Größere Schrift
-  LABEL_OPTIMIZE_HAPPINESS: Optimieren Sie Ihr Glück
+  LABEL_OPTIMIZE_HAPPINESS: Zufriedenheit der Mitarbeier optimieren
   TOOLTIP_OPTIMIZE_HAPPINESS: |
-    Hält die Zufriedenheit im Studio so nahe wie möglich an 100%.
+    Hält die Zufriedenheit im Studio so nahe wie möglich bei 100%.
 
-    Wenn Sie diese Option deaktivieren, können Sie mehr Schreibtische
-    im Studio auf Kosten der Zufriedenheit haben.
+    Wenn diese Option deaktiviert ist, können im Studio mehr
+    Schreibtische auf Kosten der Zufriedenheit platziert werden.
   LABEL_REWORK_LEGACY_CODE: |
-    Schreiben Sie die Spiel-Engine neu.
-    Durch das Neuschreiben der Spiel-Engine wird der Nachteil des veralteten Codes beseitigt, obwohl es etwas mehr kostet als eine neue Spiel-Engine.
+    Die Spiel-Engine wird neu geschrieben.
+    Durch das Neuschreiben der Spiel-Engine wird die Strafe durch veralteten Code entfernt, obwohl es etwas mehr kostet als eine neue Spiel-Engine.
   TOOLTIP_TWITCH_BUTTON: |
-    Starte eine Umfrage auf Twitch.
+    Startet eine Umfrage auf Twitch.
 
-    Die Zuschauer können über den Chat Namen vorschlagen.
+    Die Zuschauer können dann über den Chat Namen vorschlagen.
   LABEL_SECONDS: Sekunden
-  LABEL_TWITCH_POLL_DURATION: Dauer der Abfrage
+  LABEL_TWITCH_POLL_DURATION: Dauer der Abstimmung
   LABEL_TWITCH_CHANNEL_NAME: Name des Twitch-Kanals
   LABEL_TWITCH_TOKEN: Twitch-Token
-  LABEL_TWITCH_CONNECTING: Verbindung zu Twitch hergestellt...
+  LABEL_TWITCH_CONNECTING: Verbindung zu Twitch wird hergestellt...
   LABEL_TWITCH_DISCONNECTED: Verbindung zu Twitch unterbrochen
   LABEL_TWITCH_CONNECTED: Verbindung zu Twitch hergestellt!
   LABEL_TWITCH_AUTHENTICATION_FAILED: Authentifizierung fehlgeschlagen!
   TOOLTIP_CUSTOM_PLATFORM_PRICING: |
-    Es ist nicht einfach, den richtigen Preis für eine Konsole zu bestimmen, obwohl man damit in der Regel aus dem Geschäft fällt.
+    Es ist nicht einfach, den richtigen Preis für eine Konsole zu bestimmen.
 
     Der Preis einer Konsole beeinflusst den Absatz.
-    Hohe Preise führen zu sinkenden Verkaufszahlen.
-    Niedrigere Preise erhöhen den Absatz, allerdings zu einem sehr hohen Preis.
+    Hohe Preise führen zu niedrigeren Verkaufszahlen.
+    Niedrigere Preise erhöhen den Absatz, führen allerdings auch zu weniger Gewinn.
   LABEL_CONVENTION_LIST_NONE_ATTENDED: >
-    Sie nehmen an keiner Konferenz teil, und es gibt keine angekündigten Konferenzen, an denen Sie teilnehmen könnten.
+    Das Studio nimmt bisher an keiner Messe teil und es gibt aktuell keine angekündigten Messen, an denen es teilnehmen könnte.
   LABEL_CONVENTION_LIST_NONE_AVAILABLE: >
-    Es gibt angekündigte Kongresse, an denen Sie teilnehmen könnten, und die Schaltfläche oben führt Sie zu ihnen. Aber im Moment nimmst du an keiner Konferenz teil.
+    Es gibt angekündigte Messen, an denen das Studio teilnehmen könnte. Über die Schaltfäche oben können diese Messen eingesehen werden. Aber im Moment nimmt das Studio an keiner Messe teil.
   LABEL_CUSTOM_PLATFORM_MATCH_PREVIEW: >
-    Liste der Spielgenres und ihrer Entsprechung für Ihre zukünftige Konsole.
+    Liste der Spielgenres und ihrer Kompatibilität mit Konsolen.
   TOOLTIP_CUSTOM_PLATFORM_GENRE_MATCH: Zufällig ausgewählt zwischen %s / %s
   TOOLTIP_CUSTOM_PLATFORM_CATALOG_GAME_LIST: |
     In diesem Abschnitt werden die von Ihnen und Ihren direkten Konkurrenten für Ihre Konsole veröffentlichten Spiele aufgeführt.
